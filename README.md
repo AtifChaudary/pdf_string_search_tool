@@ -7,17 +7,17 @@ This Python script allows you to search for a specific string within a PDF docum
 1. **Installation**: Ensure you have Python installed on your system along with the necessary dependencies. You can install the required libraries by running:
 
 
-`
+```bash
 pip install PyMuPDF requests
-`
+```
 
 
 2. **Usage**: Run the script from the command line with the following arguments:
 
 
-`
+```bash
 python pdf_string_search.py <pdf_url> <search_string>
-`
+```
 
 
 - `<pdf_url>`: URL of the PDF file you want to search within.
@@ -36,3 +36,6 @@ python pdf_string_search.py https://example.com/example.pdf "search_string"
 # Dependencies
 * PyMuPDF: A Python binding to the MuPDF C library, providing access to PDF parsing and rendering facilities.
 * Requests: An elegant and simple HTTP library for Python, allowing easy retrieval of content from URLs.
+
+# Disclaimer
+This tool is provided as-is, without any warranties or guarantees. Use it responsibly and ensure compliance with applicable laws and regulations when using it on PDF documents you do not own or have permission to access.
